@@ -35,11 +35,6 @@ Be sure to let me know if there're any more bugs when you are reviewing this tes
 # To be improved
 1. The error handlers could be more informative or prettier such as using nice pop-ups and more cases can be token into considerations
 2. More unit tests can be done to improve code coverage
-<<<<<<< HEAD
 3. Tests can be separated into different files, thus it can have a better folder structure 
 4. The arrows control might not following the standard
 5. State management / Persistent storage can be improved using any state management libraries
-=======
-3. The arrows control might not following the standard
-4. State management / Persistent storage can be improved using any state management libraries
->>>>>>> fdf74848ac8bccfe404777c59859947598e02155
