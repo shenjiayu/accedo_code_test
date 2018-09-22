@@ -1,5 +1,5 @@
 # Live Site
-https://5ba649a3b3127434cb4008ce.zen-keller-b0448d.netlify.com/
+[click here](https://5ba649a3b3127434cb4008ce.zen-keller-b0448d.netlify.com/){:target="_blank"}
 
 # Development Environment
 * `macos - 10.13.6`
