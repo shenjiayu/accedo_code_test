@@ -1,0 +1,76 @@
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #949494;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.app-title {
+  font-size: 1.5em;
+  float: left;
+}
+
+.app-history {
+  
+}
+
+.app-movies-text, .app-history-text {
+  padding-left: 20px;
+  float: left;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-movies-refresh-button, .app-movies-clear-button {
+  cursor: pointer;
+  float: right;
+  padding: 20px 20px 0 0;
+}
+
+.app-movies-list, .app-watched-movies-list {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .app-movies-list, .app-watched-movies-list {
+    overflow: visible;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .app-movie-container {
+    flex: 1 1;
+  }
+}
+
+.app-movie-container {
+  border: 1px solid transparent;
+  min-width: 217px;
+  padding: 10px;
+  text-align: left;
+}
+
+.app-movie-container-onfocus {
+  border: 1px solid black;
+}
+
+.app-movie-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 214px;
+  min-height: 317px;
+  margin-bottom: 10px;
+}
+
+.app-video {
+  width: 0;
+}
