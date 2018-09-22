@@ -24,7 +24,7 @@ https://5ba649a3b3127434cb4008ce.zen-keller-b0448d.netlify.com/
 * Extra Features
     * History list clear button
 * Features not implemented
-    * Image Caching, I tried to cache the image by converting the image loaded from the server, convert it to base64 data and store it into localstorage, but it keeps throwing CORS error. Due to the time constraint, I didn't implement this feature.
+    * Image Caching, I tried to cache the image by converting the image loaded from the server to base64 format and store it into localstorage, however it keeps throwing CORS error. Due to the time constraint, I didn't implement this feature.
 
 # Known Bugs
 1. I have noticed that the cover image for each movie is randomly generated rather than a unchanged image, so the image is not showing correctly for the right movie in the history section.
