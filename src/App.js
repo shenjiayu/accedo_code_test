@@ -232,7 +232,7 @@ class App extends Component {
         <div className="app-container">
           <div>
             <h1 className="app-movies-text">Movies</h1>
-            <a className="app-movies-refresh-button" onClick={ () => this._refreshMovies() }><i className={"fas fa-sync-alt" + (isRefreshing ? " fa-spin" : "")}></i>REFRESH</a>
+            <a className="app-movies-refresh-button" onClick={ () => this._refreshMovies() }><i className={"fas fa-sync-alt" + (isRefreshing ? " fa-spin" : "")}></i> REFRESH</a>
           </div>
           <div className="app-movies-list">
             { movies.length > 0 && movies.map((movie, index) => (
@@ -247,7 +247,7 @@ class App extends Component {
           </div>
           <div className="app-history">
             <h1 className="app-history-text">History</h1>
-            <a className="app-movies-clear-button" onClick={ () => this._clearHistory() }><i className="fas fa-trash-alt"></i>CLEAR</a>
+            <a className="app-movies-clear-button" onClick={ () => this._clearHistory() }><i className="fas fa-trash-alt"></i> CLEAR</a>
           </div>
           <div className="app-watched-movies-list">
             { watchedMovies.length > 0 && watchedMovies.map((movie, index) => (

@@ -14,6 +14,7 @@ import Video from './components/Video';
 import apis from './apis';
 
 describe('App', function () {
+  
   describe('renders the <Video /> component which contains one video tag', () => {
     const wrapper = shallow(<Video />);
     expect(wrapper.find('.app-video').length).toEqual(1);
@@ -43,6 +44,10 @@ describe('App', function () {
     const wrapper = shallow(<App />);
     expect(wrapper.state().movies.length).toEqual(0);
     expect(wrapper.state().watchedMovies.length).toEqual(0);
+
+    it('has one Home title', () => {
+      expect(wrapper.find('.app-title').first().text()).toEqual('Home');
+    });
 
     it('retrieves movies from the end point', async () => {
       await apis.movies_index()
